@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackathonHealthMedAPI", "HackathonHealth&Med\HackathonHealthMedAPI.csproj", "{4A949F74-C85B-4E7A-9784-058DE0971F48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackathonHealthMedAPI", "HackathonHealth&Med\HackathonHealthMedAPI.csproj", "{4A949F74-C85B-4E7A-9784-058DE0971F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CA69DC80-4AFF-40A8-84B4-84DA4F01204F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CA69DC80-4AFF-40A8-84B4-84DA4F01204F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{36E2A973-565C-4BB3-9808-4141A928EAF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CA69DC80-4AFF-40A8-84B4-84DA4F01204F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA69DC80-4AFF-40A8-84B4-84DA4F01204F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA69DC80-4AFF-40A8-84B4-84DA4F01204F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E2A973-565C-4BB3-9808-4141A928EAF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E2A973-565C-4BB3-9808-4141A928EAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E2A973-565C-4BB3-9808-4141A928EAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E2A973-565C-4BB3-9808-4141A928EAF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HackathonHealthMedAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f75a272efa2edf79cfa3527cc7505b9fc01e6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HackathonHealthMedAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HackathonHealthMedAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

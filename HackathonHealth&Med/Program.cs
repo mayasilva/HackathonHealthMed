@@ -1,3 +1,6 @@
+using Infrastructure.Repository;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddHostedService<Worker>();
 
@@ -5,6 +8,8 @@ var configuration = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json")
     .AddEnvironmentVariables()
     .Build();
+
+var connectionString = configuration.GetConnectionString("ConnectionString");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
